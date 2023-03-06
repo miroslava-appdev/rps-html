@@ -8,13 +8,12 @@ body{
   display: flex;
   justify-content: center;
   align-items:center;
-  border: 5px red solid;
+  border: 5px skyblue solid;
   height: 100vh;
 }
 
 .container {
   width: 960px;
-  border: 5px green solid;
 }
 
 .row {
@@ -28,9 +27,9 @@ body{
 }
 
 .button {
-  margin: 10px;
-  color: teal;
-  border: 1px teal solid;
+  margin-top: 10px;
+  color: rgb(241, 159, 51);
+  border: 1px sienna solid;
   border-radius: 5px;
   text-decoration: none;
   width: 100%;
@@ -49,12 +48,12 @@ body{
 }
 
 .player-card {
-  border: thin green solid;
+  border: thin rgb(81, 163, 196) solid;
   width: 49%;
 }
 
 .computer-card {
-  border: thin red solid;
+  border: thin rgb(81, 163, 196) solid;
   width: 49%;
 }
 
