@@ -3,9 +3,13 @@
 }
 
 body{
+  margin: 0;
   font-family: 'Shantell Sans', cursive;
   display: flex;
   justify-content: center;
+  align-items:center;
+  border: 5px red solid;
+  height: 100vh;
 }
 
 .container {
@@ -61,5 +65,6 @@ body{
 }
 
 .one-third{
-  width: 32%;
+  width: 32%; 
+  margin: auto; 
 }
