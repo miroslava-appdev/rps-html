@@ -1,63 +1,45 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>You played rock!</title>
+
+  <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
-  <link rel="stylesheet" href="my_styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-  <div class="container">
-
-    <div class="row mb">
-      <div class="one-third">
-        <div>
-          <a class="button" href="/rock">Play Rock</a>
-        </div>
-      </div>
-
-      <div class="one-third">
-        <div>
-          <a class="button" href="/paper">Play Paper</a>
-        </div>
-      </div>
-
-      <div class="one-third">
-        <div>
-          <a class="button" href="/scissors">Play Scissors</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="row mb">
-      <div class="player-card">
-        <h2 class="centered">
-          <em>We</em> <strong>played</strong> rock!
-        </h2>
-      </div>
-      <div class="computer-card">
-        <h2 class="centered">They played paper!</h2>
-      </div>
-    </div>
-
-    <div class="row-center mb">
-      <div class="outcome-card">
-        <h2 class="centered">
-          We lost!</h2>
-      </div>
-    </div>
-
-
-    <div class="row-center mb">
-      <a href="/" class="centered">
-        Rules</a>
-    </div>
-
+  <div>
+    <a href="/rock" style="border-top: 5px red dashed">
+      Play Rock
+    </a>
   </div>
 
-</body>
+  <div>
+    <a href="/paper">
+      Play Paper
+    </a>
+  </div>
 
+  <div>
+    <a href="/scissors">
+      Play Scissors
+    </a>
+  </div>
+
+  <h2 style="color: green;">
+    We played rock!
+  </h2>
+
+  <h2 style="color: red;">
+    They played paper!
+  </h2>
+
+  <h2 style="color: red;">
+    We lost!
+  </h2>
+
+  <a href="/">
+    Rules
+  </a>
+</body>
 </html>
